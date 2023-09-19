@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste des rapports</title>
+</head>
+<header> 
+    <h1> LISTE DES RAPPORTS </h1>
+</header>
+<body>
+
+    <nav>
+        <a href="settingshtml"><img src="/img/settings.png" alt="icone settings"></a><br>
+        <a href="index.html">Déconnexion</a><br>
+        <a href="dernierselements.html">Accueil</a><br>
+        <a href="casiersjudiciaires.html">Casisers Judiciaires</a><br>
+        <a href="nouvelleenquete.html">Nouvelle enquête</a><br>
+        <a href="enquetesencours.html">Enquêtes en cours</a><br>
+        <a href="nouveaurapport.html">Nouveau rapport</a><br>
+        <a href="listedesrapports.html">Liste des rapports</a><br>
+    </nav>
+    
+</body><img id="Logo LSPD" src="/img/BTmvvEw 2.png" alt="Logo LSPD">
+<br>
+
+<input id="searchbar" onkeyup="search_rapport()" type="text"
+        name="search" placeholder="Rechercher un rapport"> <p>Trier par :</p>
+        <select name="Trier" id="tri">
+            <option value="Nom">Nom</option>
+            <option value="Agent">Agent</option>
+            <option value="Date">Date</option>
+        </select>
+<table>
+    <tr>
+    <th> Nom du rapport</th>
+    <th> Agent</th>
+    <th> Date</th>
+    </tr>
+    <tr>
+        <td> requête php </td>
+        <td> requête php </td>
+        <td> requête php </td>
+    </tr>
+    </table>
+
+    <button type="button">Modifier</button>
+    <button type="button">Supprimer</button>
+
+</html>
