@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background:linear-gradient(180deg, rgba(120, 174, 94, 0.50) 2.08%, rgba(120, 174, 94, 0.38) 52.6%, rgba(120, 174, 94, 0.00) 100%), rgba(68, 82, 204, 0.50);
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: black 3px solid;
+    
+}
+
+#settings {
+    border: violet 3px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+
+#iconesettings {
+    margin-right: 10px;
+    width: 40px;
+    height: 30px;
+}
+
+#deconnection {
+    display: flex;
+}
+
+figure {
+    margin: 0%;
+}
+
+#LogoLSPD {
+    width: 150px;
+    height: 150px;
+}
+
+#navlogo {
+    border: red 3px solid;
+    width: 170px;
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+}
+
+ 
+
+table {
+    
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items:space-around;
+    flex-wrap: wrap;
+
+    border: red solid 3px;
+}
