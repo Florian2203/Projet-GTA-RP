@@ -8,12 +8,17 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: black 3px solid;
+    /* border: black 3px solid; */
     
 }
 
+#body {
+    display: flex;
+    /* border: green 5px solid; */
+}
+
 #settings {
-    border: violet 3px solid;
+    /* border: violet 3px solid; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,6 +26,7 @@ body {
     
 }
 
+h1{     text-align: center;     color: aliceblue;     text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5) ;     font-size: 40px;     margin-bottom: 10px;}
 
 #iconesettings {
     margin-right: 10px;
@@ -41,25 +47,79 @@ figure {
     height: 150px;
 }
 
+#settings {
+    align-self: start;
+    align-items: flex-start;
+}
+
 #navlogo {
-    border: red 3px solid;
+     border: red 3px solid; 
     width: 170px;
-    height: 1080px;
+    height: 925px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    margin-right: 50px;
     
 }
 
+#links {
+
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    /* border: blue 3px solid; */
+    width: 170px;
+    height: 650px;
+    gap: 13px ;
+    
+    }
+
+#dernierselements,#casiersjudiciaires,#nouvelleenquete,#enquetesencours,#nouveaurapport,#listedesrapports,#deconnection {
+
+    text-decoration: none;
+    color: black;
+}
+
+#button {
+    display: flex;
+    justify-content: end;
+    margin-right: 75px ;
+    /* border: 10px solid violet; */
+    height: 50px;
+    margin-top: 5px;
+    
+}
+
+#bouton {
+    /* border: solid yellow 5px; */
+    width: 150px;
+    border-radius: 5px;
+    background-color: rgb(114, 114, 207);
+}
  
 
 table {
-    
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    align-items:space-around;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items:flex-start;
+    margin : 0px 75px 0px 75px;
+    width: 100%;
+    /* border: pink 3px solid; */
 
-    border: red solid 3px;
+    background-color: grey;
+
+}
+
+th {
+    /* border: 3px red solid; */
+    width: 1500px;
+    height: 50px;
+    te
+}
+
+td {
+    background-color: red;
+    text-align: center;
+    height: 50px;
 }
