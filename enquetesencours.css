@@ -1,0 +1,128 @@
+body {
+    border: 5px green solid;
+    background:linear-gradient(180deg, rgba(120, 174, 94, 0.50) 2.08%, rgba(120, 174, 94, 0.38) 52.6%, rgba(120, 174, 94, 0.00) 100%), rgba(68, 82, 204, 0.50);
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#body {
+    display: flex;
+    /* border: green 5px solid; */
+}
+
+
+
+#settings {
+    /* border: violet 3px solid; */
+    display: flex;
+    justify-content: space-between;
+    
+    align-self: start;
+    align-items: flex-start;
+    
+}
+
+h1{     text-align: center;     color: aliceblue;     text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5) ;     font-size: 40px;     margin-bottom: 10px;}
+
+#iconesettings {
+    margin-right: 10px;
+    width: 40px;
+    height: 30px;
+}
+
+#deconnection {
+    display: flex;
+}
+
+figure {
+    margin: 0%;
+}
+
+#LogoLSPD {
+    width: 150px;
+    height: 150px;
+}
+
+#navlogo {
+    border: red 3px solid; 
+   width: 170px;
+   height: 925px;
+   display: flex;
+   flex-direction: column;
+   a
+   flex-wrap: nowrap;
+   margin-right: 50px;
+   
+}
+
+#links {
+
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-self: center;
+    /* border: blue 3px solid; */
+    width: 170px;
+    height: 650px;
+    gap: 13px ;
+    
+    }
+
+
+    #dernierselements,#casiersjudiciaires,#nouvelleenquete,#enquetesencours,#nouveaurapport,#listedesrapports,#deconnection {
+        
+        text-decoration: none;
+        color: black;
+    }
+
+    #button {
+    display: flex;
+    justify-content: end;
+    margin-right: 75px ;
+    /* border: 10px solid violet; */
+    height: 50px;
+    margin-top: 5px;
+    
+}
+
+#bouton {
+    /* border: solid yellow 5px; */
+    width: 150px;
+    border-radius: 5px;
+    background-color: rgb(114, 114, 207);
+}
+ 
+table {
+    /* Ajoute un style pour centrer la table horizontalement */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: grey;
+    /* Ajoute de la marge pour espacer la table du haut */
+    margin-top: 10px;
+}
+th {
+    /* border: 3px red solid; */
+    width: 1500px;
+    height: 50px;
+    te
+}
+td {
+    background-color: red;
+    text-align: center;
+    height: 50px;
+}
+
+#search-bar {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+        
+}
