@@ -20,22 +20,30 @@ body {
 #settings {
     /* border: violet 3px solid; */
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
-    align-items: center;
-
-    
+    align-items: center;    
 }
 
-h1{     text-align: center;     color: aliceblue;     text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5) ;     font-size: 40px;     margin-bottom: 10px;}
+h1{     
+    text-align: center;     
+    color: aliceblue;     
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5) ;     
+    font-size: 40px;     
+    margin-bottom: 10px;
+}
 
 #iconesettings {
-    margin-right: 10px;
+    
     width: 40px;
     height: 30px;
 }
 
 #deconnection {
     display: flex;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    
+    
 }
 
 figure {
@@ -47,13 +55,10 @@ figure {
     height: 150px;
 }
 
-#settings {
-    align-self: start;
-    align-items: flex-start;
-}
+
 
 #navlogo {
-     border: red 3px solid; 
+     /* border: red 3px solid;  */
     width: 170px;
     height: 925px;
     display: flex;
@@ -76,9 +81,13 @@ figure {
     }
 
 #dernierselements,#casiersjudiciaires,#nouvelleenquete,#enquetesencours,#nouveaurapport,#listedesrapports,#deconnection {
-
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 #button {
@@ -108,6 +117,7 @@ table {
     /* border: pink 3px solid; */
 
     background-color: grey;
+    border-collapse: collapse;
 
 }
 
@@ -115,11 +125,18 @@ th {
     /* border: 3px red solid; */
     width: 1500px;
     height: 50px;
-    te
+    
+    
+    
 }
 
+
+
 td {
-    background-color: red;
+    /* background-color: red; */
     text-align: center;
     height: 50px;
+    border-top: black 4px solid;
+    border-bottom: black 2px solid;
+    
 }

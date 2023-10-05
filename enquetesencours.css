@@ -1,10 +1,11 @@
 body {
     border: 5px green solid;
+    background:linear-gradient(180deg, rgba(120, 174, 94, 0.50) 2.08%, rgba(120, 174, 94, 0.38) 52.6%, rgba(120, 174, 94, 0.00) 100%), rgba(68, 82, 204, 0.50);
 }
 
 #header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -53,6 +54,7 @@ figure {
    height: 925px;
    display: flex;
    flex-direction: column;
+   a
    flex-wrap: nowrap;
    margin-right: 50px;
    
@@ -63,6 +65,7 @@ figure {
     display: flex;
     flex-direction: column;
     justify-content:  center;
+    align-self: center;
     /* border: blue 3px solid; */
     width: 170px;
     height: 650px;
@@ -72,7 +75,7 @@ figure {
 
 
     #dernierselements,#casiersjudiciaires,#nouvelleenquete,#enquetesencours,#nouveaurapport,#listedesrapports,#deconnection {
-
+        
         text-decoration: none;
         color: black;
     }
@@ -95,17 +98,14 @@ figure {
 }
  
 table {
+    /* Ajoute un style pour centrer la table horizontalement */
     display: flex;
     justify-content: center;
-    align-items:flex-start;
-    margin : 0px 75px 0px 75px;
     width: 100%;
-    /* border: pink 3px solid; */
-
     background-color: grey;
-
+    /* Ajoute de la marge pour espacer la table du haut */
+    margin-top: 10px;
 }
-
 th {
     /* border: 3px red solid; */
     width: 1500px;
@@ -116,4 +116,13 @@ td {
     background-color: red;
     text-align: center;
     height: 50px;
+}
+
+#search-bar {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+        
 }
