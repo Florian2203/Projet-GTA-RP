@@ -1,0 +1,142 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background:linear-gradient(180deg, rgba(120, 174, 94, 0.50) 2.08%, rgba(120, 174, 94, 0.38) 52.6%, rgba(120, 174, 94, 0.00) 100%), rgba(68, 82, 204, 0.50);
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: black 3px solid; */
+    
+}
+
+#body {
+    display: flex;
+    /* border: green 5px solid; */
+}
+
+#settings {
+    /* border: violet 3px solid; */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+h1{     
+    text-align: center;     
+    color: aliceblue;     
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5) ;     
+    font-size: 40px;     
+    margin-bottom: 10px;
+}
+
+#iconesettings {
+    
+    width: 40px;
+    height: 30px;
+}
+
+#deconnection {
+    display: flex;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    
+    
+}
+
+figure {
+    margin: 0%;
+}
+
+#LogoLSPD {
+    width: 150px;
+    height: 150px;
+}
+
+
+
+#navlogo {
+     /* border: red 3px solid;  */
+    width: 170px;
+    height: 925px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-right: 50px;
+    
+}
+
+#links {
+
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    /* border: blue 3px solid; */
+    width: 170px;
+    height: 650px;
+    gap: 13px ;
+    
+    }
+
+#dernierselements,#casiersjudiciaires,#nouvelleenquete,#enquetesencours,#nouveaurapport,#listedesrapports,#deconnection {
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#button {
+    display: flex;
+    justify-content: end;
+    margin-right: 75px ;
+    /* border: 10px solid violet; */
+    height: 50px;
+    margin-top: 5px;
+    
+}
+
+#bouton {
+    /* border: solid yellow 5px; */
+    width: 150px;
+    border-radius: 5px;
+    background-color: rgb(114, 114, 207);
+}
+ 
+
+table {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    margin : 0px 75px 0px 75px;
+    width: 100%;
+    /* border: pink 3px solid; */
+
+    background-color: grey;
+    border-collapse: collapse;
+
+}
+
+th {
+    /* border: 3px red solid; */
+    width: 1500px;
+    height: 50px;
+    
+    
+    
+}
+
+
+
+td {
+    /* background-color: red; */
+    text-align: center;
+    height: 50px;
+    border-top: black 4px solid;
+    border-bottom: black 2px solid;
+    
+}
