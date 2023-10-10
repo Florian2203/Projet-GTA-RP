@@ -86,3 +86,8 @@ button {
     #MotdePasseOublié {
         margin-top: 25px;
     }
+
+    #bouton {
+        text-decoration: none;
+        color: #3B4148;
+    }
