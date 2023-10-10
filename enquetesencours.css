@@ -1,6 +1,6 @@
 body {
     /* border: 5px green solid; */
-    background:linear-gradient(180deg, rgba(120, 174, 94, 0.50) 2.08%, rgba(120, 174, 94, 0.38) 52.6%, rgba(120, 174, 94, 0.00) 100%), rgba(68, 82, 204, 0.50);
+    background: linear-gradient(180deg, rgba(120, 174, 94, 0.50) 2.08%, rgba(120, 174, 94, 0.38) 52.6%, rgba(120, 174, 94, 0.00) 100%), rgba(68, 82, 204, 0.50);
 }
 
 #header {
@@ -21,13 +21,19 @@ body {
     /* border: violet 3px solid; */
     display: flex;
     justify-content: space-between;
-    
+
     align-self: start;
     align-items: flex-start;
-    
+
 }
 
-h1{     text-align: center;     color: aliceblue;     text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5) ;     font-size: 40px;     margin-bottom: 10px;}
+h1 {
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
+    font-size: 40px;
+    margin-bottom: 10px;
+}
 
 #iconesettings {
     margin-right: 10px;
@@ -50,48 +56,53 @@ figure {
 
 #navlogo {
     /* border: red 3px solid;  */
-   width: 170px;
-   height: 925px;
-   display: flex;
-   flex-direction: column;
-   a
-   flex-wrap: nowrap;
-   margin-right: 50px;
-   
+    width: 170px;
+    height: 925px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-right: 50px;
+
 }
 
 #links {
 
     display: flex;
     flex-direction: column;
-    justify-content:  center;
+    justify-content: center;
     align-self: center;
     /* border: blue 3px solid; */
     width: 170px;
     height: 650px;
-    gap: 13px ;
-    
-    }
+    gap: 13px;
+
+}
 
 
-    #dernierselements,#casiersjudiciaires,#nouvelleenquete,#enquetesencours,#nouveaurapport,#listedesrapports,#deconnection {
-        display: flex;
-        flex-direction: column;
-        justify-content:  center;
-        align-items: center;
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-    }
+#dernierselements,
+#casiersjudiciaires,
+#nouvelleenquete,
+#enquetesencours,
+#nouveaurapport,
+#listedesrapports,
+#deconnection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
 
-    #button {
+#button {
     display: flex;
     justify-content: end;
-    margin-right: 75px ;
+    margin-right: 75px;
     /* border: 10px solid violet; */
     height: 50px;
     margin-top: 5px;
-    
+
 }
 
 #bouton {
@@ -100,7 +111,7 @@ figure {
     border-radius: 5px;
     background-color: rgb(114, 114, 207);
 }
- 
+
 table {
     /* Ajoute un style pour centrer la table horizontalement */
     display: flex;
@@ -110,11 +121,13 @@ table {
     /* Ajoute de la marge pour espacer la table du haut */
     margin-top: 10px;
 }
+
 th {
     /* border: 3px red solid; */
     width: 1500px;
     height: 50px;
 }
+
 td {
     /* background-color: red; */
     text-align: center;
@@ -122,10 +135,10 @@ td {
 }
 
 #search-bar {
-    
+
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-        
+
 }
