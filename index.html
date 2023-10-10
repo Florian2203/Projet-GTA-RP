@@ -9,7 +9,7 @@
 
     
     <figure id="Logoduserveur">
-        <img src="/Projet-GTA-RP-1/img/pngaaa.com-3547252.png" alt="Logo du serveur">
+        <img src="/img/pngaaa.com-3547252.png" alt="Logo du serveur">
     </figure>
     <section id="Formutilisateur">
 
@@ -28,7 +28,7 @@
 
     <section>
     <figure id="Logomdp">
-        <img src="/Projet-GTA-RP-1/img/MDP.png" alt="Icone MDP">
+        <img src="/img/MDP.png" alt="Icone MDP">
     </figure>
   
    <form>
@@ -38,15 +38,22 @@
     </form>
     </section>
         <br>
-        <button type="submit" >Connexion</button> <br>
+        <button type="submit" id="redirectButton">Connexion</button> <br>
     
        
     <a id="LienDiscord" href="">Lien Discord</a>
     <br>
-    <a id="MotdePasseOublié" href="Motdepasseoublié.html">Mot de passe oublié</a>
+    <a id="MotdePasseOublié" href="Motdepassseoublie.html">Mot de passe oublié</a>
 
     <footer>
     <p id="Droits"> ©2023 tous droits réservés </p>
 </footer>
+
+
+<script>
+    document.getElementById("redirectButton").addEventListener("click", function() {
+      window.location.href = "dernierselements.html";
+    });
+  </script>
 </body>
 </html>
