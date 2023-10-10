@@ -141,7 +141,7 @@ button {
     margin-left: 20px;
 
 }
-#confirm-button {
+#Publier {
     background-color: #28a745;
 }
 
@@ -149,6 +149,7 @@ footer {
     background-color: transparent; 
     color: #fff;
     text-align: left; 
+    margin-top: 50px;
 }
 
 #police-logo {
@@ -163,7 +164,7 @@ footer {
     padding: 20px; 
 }
 
-input[type="text"]::placeholder {
+input[type="textarea"] {
     font-size: 14px; 
     font-weight: bold; 
 }

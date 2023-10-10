@@ -3,35 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="nouveaurapport.css">
-    <title>Nouveau rapport</title>
-</head>
-
-<body>
-
-    <header> 
-        <h1> NOUVEAU RAPPORT </h1>
-    </header>
-
-    <nav>
-        <a href="settingshtml"><img src="/img/settings.png" alt="icone settings"></a><br>
-        <a href="index.html">Déconnexion</a><br>
-        <a href="dernierselements.html">Accueil</a><br>
-        <a href="casiersjudiciaires.html">Casisers Judiciaires</a><br>
-        <a href="nouvelleenquete.html">Nouvelle enquête</a><br>
-        <a href="enquetesencours.html">Enquêtes en cours</a><br>
-        <a href="nouveaurapport.html">Nouveau rapport</a><br>
-        <a href="listedesrapports.html">Liste des rapports</a><br>
-    </nav>
+    <link rel="stylesheet" href="/nouveaurapport.css">
+    <title>Nouvelle enquête></title>
     
-<img id="Logo LSPD" src="/img/BTmvvEw 2.png" alt="Logo LSPD">
-<br>
-
+</head>
+    <body>
+        <section id="body">
+            <section id="navlogo">
+            
+                    <section id="settings">
+                        <a href="settingshtml"><img src="./img/settings.png" alt="iconesettings" id="iconesettings"></a><br>
+                        <a href="index.html" id="deconnection">Déconnexion</a><br>
+                    </section>
+                    <section id="links">
+                        <a href="dernierselements.html" id="dernierselements">Accueil</a><br>
+                        <a href="casiersjudiciaires.html" id="casiersjudiciaires">Casisers Judiciaires</a><br>
+                        <a href="nouvelleenquete.html" id="nouvelleenquete">Nouvelle enquête</a><br>
+                        <a href="enquetesencours.html" id="enquetesencours">Enquêtes en cours</a><br>
+                        <a href="nouveaurapport.html" id="nouveaurapport">Nouveau rapport</a><br>
+                        <a href="listedesrapports.html" id="listedesrapports">Liste des rapports</a><br>
+                    </section>
+    
+                <figure>
+                    <img id="LogoLSPD" src="./img/Police.png" alt="LogoLSPD">
+                </figure>
+            </section>
+            <main id="main">
+                <div id="content">
+                    <h1>Nouvelle Enquête</h1>
+<section id="Enquete textearea">
 <textarea name="Title" id="Title" cols="30" rows="1" placeholder="Titre" required></textarea>
 <br>
 <textarea name="Article" id="Article" cols="30" rows="10"
-placeholder="Écrivez votre rapport"></textarea>
+placeholder="Écrivez votre enquête"></textarea>
 <br>
-<button type="button">Publier</button>
+</section>
+<footer><div id="report-buttons">
+<button type="button" id="Publier">Publier</button>
+</div></footer>
+
+<script>document.getElementById("Publier").addEventListener("click", function(){
+    window.location.href="dernierselements.html"
+})</script>
 </body>
+
 </html>
