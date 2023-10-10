@@ -3,57 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Derniers éléments publiés</title>
+    <title>Enquetes en cours</title>
     <link rel="stylesheet" href="/enquetesencours.css">
 </head>
 
 <body>
-<header id="header"> 
-    <h1> ENQUÊTES EN COURS </h1>
-    <section id="search-bar">
-        <form action = "verif-form.php" method = "get">
-            <input type = "search" name = "terme">
-           </form>
+    <section id="body">
+        <section id="navlogo">
+        
+                <section id="settings">
+                    <a href="settingshtml"><img src="./Images/settings.png" alt="iconesettings" id="iconesettings"></a><br>
+                    <a href="index.html" id="deconnection">Déconnexion</a><br>
+                </section>
+                <section id="links">
+                    <a href="dernierselements.html" id="dernierselements">Accueil</a><br>
+                    <a href="casiersjudiciaires.html" id="casiersjudiciaires">Casisers Judiciaires</a><br>
+                    <a href="nouvelleenquete.html" id="nouvelleenquete">Nouvelle enquête</a><br>
+                    <a href="enquetesencours.html" id="enquetesencours">Enquêtes en cours</a><br>
+                    <a href="nouveaurapport.html" id="nouveaurapport">Nouveau rapport</a><br>
+                    <a href="listedesrapports.html" id="listedesrapports">Liste des rapports</a><br>
+                </section>
+
+            <figure>
+                <img id="LogoLSPD" src="./Images/Police.png" alt="LogoLSPD">
+            </figure>
         </section>
-</header>
-<section id="body">
-    <section id="navlogo">
-        <nav id="nav">
-      <section id="settings">
-          <a href="settingshtml"><img src="/img/settings.png" alt="iconesettings" id="iconesettings"></a><br>
-        <a href="index.html" id="deconnection">Déconnexion</a><br>
-      </section>
-      <section id="links">
-        <a href="dernierselements.html" id="dernierselements">Accueil</a><br>
-        <a href="casiersjudiciaires.html" id="casiersjudiciaires">Casisers Judiciaires</a><br>
-        <a href="nouvelleenquete.html" id="nouvelleenquete">Nouvelle enquête</a><br>
-        <a href="enquetesencours.html" id="enquetesencours">Enquêtes en cours</a><br>
-        <a href="nouveaurapport.html" id="nouveaurapport">Nouveau rapport</a><br>
-        <a href="listedesrapports.html" id="listedesrapports">Liste des rapports</a><br>
-      </section>
-    </nav>
-    <figure>
-    <img id="LogoLSPD" src="/img/BTmvvEw 2.png" alt="LogoLSPD">
-    </figure>
+        <main id="main">
+            <div id="content">
+                <h1>Enquetes en cours</h1>
+                <div id="search-bar">
+                    <input type="text" placeholder="Taper pour rechercher">
+                </div>
+                <table>
+                    <tr>
+                    <th> Nom</th>
+                    <th> ID</th>
+                    <th> Date de naissance</th>
+                    </tr>
+                    <tr>
+                        <td> requête php </td>
+                        <td> requête php </td>
+                        <td> requête php </td>
+                    </tr>
+                    </table>
+                </div>
+            </div>
+        </main>
     </section>
-    
-    <table>
-        <tr>
-        <th> Nom</th>
-        <th> Agent</th>
-        <th> Date</th>
-        </tr>
-        <tr>
-            <td> requête php </td>
-            <td> requête php </td>
-            <td> requête php </td>
-        </tr>
-        </table>
-    </section>
-    <section id="button">
-    <input type="button" value="Modifier" id="bouton">
-    </section>
-    
-    
+   <footer><div id="report-buttons">
+    <button id="modify-button">Modifier</button>
+    <button id="confirm-button">Confirmer</button>
+</div></footer>
 </body>
 </html>
