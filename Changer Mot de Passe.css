@@ -1,0 +1,89 @@
+body {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: linear-gradient(180deg, rgba(68, 82, 204, 0.20) 0%, rgba(68, 82, 204, 0.14) 69.27%, rgba(68, 82, 204, 0.00) 100%), #78AE5E;
+    }
+    
+    figure {
+        margin : 0;
+    }
+    form {
+        padding: 0;
+        margin: 0;
+    }
+    
+    #Logonomutilisateur img {
+        width: 100%;
+    }
+    section {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+    
+    }
+    
+    
+    
+    #Logonomutilisateur {
+            padding: 21.25px 20px 17.75px 20px;
+            border-radius: 4px 0px 0px 4px;
+            background: #3B4148;
+            width: 14px;
+            height: 14px;
+    
+    }
+    
+    #Utilisateur {
+        width: 268px;
+        padding: 17px 16px;
+        border-radius: 0px 4px 4px 0px;
+        background: #3B4148;
+        margin-bottom: 15px;
+    }
+    
+    #Logomdp {
+            padding: 21.25px 20px 17.75px 20px;
+            border-radius: 4px 0px 0px 4px;
+            background: #3B4148;
+            width: 14px;
+            height: 14px;
+    }
+    
+    #MDP, #NewMDP {
+        width: 268px;
+        padding: 17px 16px;
+        border-radius: 0px 4px 4px 0px;
+        background: #3B4148;
+        margin-bottom: 15px;
+    }
+    
+    
+    #Formutilisateur {
+        margin-top: 15px;
+    }
+    
+    button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 115.905px 16px 116.095px;
+        border-radius: 4px;
+        background: #5D8921;
+        }
+        
+        button:active{
+            background-color: rgb(37, 0, 139);
+            color: aliceblue;
+        }
+    
+        footer {
+            margin-top: 140px;
+        }
+    
+        #LienDiscord {
+            margin-top: 25px;
+        }
