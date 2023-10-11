@@ -38,7 +38,7 @@
        
     <a id="LienDiscord" href="">Lien Discord</a>
     <br>
-    <a id="MotdePasseOublié" href="Motdepassseoublie.html">Mot de passe oublié</a>
+    <a id="MotdePasseOublié" href="Motdepassseoublie.php">Mot de passe oublié</a>
 
     <footer>
     <p id="Droits"> ©2023 tous droits réservés </p>
