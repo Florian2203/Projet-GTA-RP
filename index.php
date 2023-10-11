@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GTA V</title>
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
 
@@ -15,30 +15,25 @@
 
     <figure id="Logonomutilisateur">
         <img src="img/SVG.png" alt="Logo Nom d'utilisateur">
-    </figure>
-
-    
-        <form action="" method="get">
+    </figure> 
+<form action="traitement_index.php" method="post">
             <label for="Utilisateur">
                 <input type="text" id="Utilisateur"
-                placeholder="Nom d'utilisateur">
+                placeholder="Nom d'utilisateur" name="userName">
             </label>
-            </form>
             </section>
-
     <section>
     <figure id="Logomdp">
         <img src="img/MDP.png" alt="Icone MDP">
     </figure>
   
-   <form>
         <label for="MDP">
-            <input type="text" id="MDP" placeholder="Mot de Passe">
+            <input type="text" id="MDP" placeholder="Mot de Passe" name="MDP">
         </label>
-    </form>
     </section>
         <br>
         <button type="submit" id="redirectButton">Connexion</button> <br>
+</form>
     
        
     <a id="LienDiscord" href="">Lien Discord</a>
@@ -50,10 +45,6 @@
 </footer>
 
 
-<script>
-    document.getElementById("redirectButton").addEventListener("click", function() {
-      window.location.href = "dernierselements.html";
-    });
-  </script>
+
 </body>
 </html>

@@ -58,7 +58,7 @@
 
 <script>
     document.getElementById("Modif").addEventListener("click", function(){
-        window.location.href = "dernierselements.html"
+        window.location.href = "dernierselements.php"
     })
 </script>
 </body>
