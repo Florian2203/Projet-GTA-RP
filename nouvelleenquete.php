@@ -31,16 +31,17 @@
         <main id="main">
             <div id="content">
                 <h1>Nouvelle Enquête</h1>
-<section id="Enquete textearea">
+<section id="Enquetetextearea">
 <textarea name="Title" id="Title" cols="30" rows="1" placeholder="Titre" required></textarea>
 <br>
 <textarea name="Article" id="Article" cols="30" rows="10"
 placeholder="Écrivez votre enquête"></textarea>
 <br>
+</main>
 </section>
 <footer><div id="report-buttons">
 <button type="button" id="Publier">Publier</button>
-</div></footer>
+</div></div></footer>
 
 <script>document.getElementById("Publier").addEventListener("click", function(){
 window.location.href="dernierselements.html"
