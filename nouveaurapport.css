@@ -42,10 +42,7 @@ figure {
     margin: 0%;
 }
 
-#LogoLSPD {
-    width: 90%;
-    height: 150px;
-}
+
 
 #navlogo {
     /* border: red 3px solid; */
@@ -152,10 +149,7 @@ footer {
     margin-top: 50px;
 }
 
-#police-logo {
-    width: 100%;
-    height: 100px;
-}
+
 
 #content-container {
     display: flex;
