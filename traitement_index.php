@@ -40,7 +40,7 @@ if ($result->num_rows === 1) {
         if ($_SESSION['metiers'] === 'Policier') {
             header("Location:dernierselements.php"); //Rediriger vers la page de la Police 
         } else {
-            header("Location:index.php");
+            header("Location:derniersarticles.php");
         }
  
     } else {
