@@ -38,6 +38,7 @@
                     <br>
                     <div id="report-buttons">
                         <input type="submit" value="Publier" id="Publier">
+                        
                     </div>
                 </form>
                 
