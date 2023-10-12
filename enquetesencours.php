@@ -40,11 +40,34 @@
                     <th> ID</th>
                     <th> Date de naissance</th>
                     </tr>
-                    <tr>
-                        <td> requête php </td>
-                        <td> requête php </td>
-                        <td> requête php </td>
-                    </tr>
+                    <?php
+                    // Connexion à la base de données (remplacez les valeurs par les vôtres)
+                    $conn = new mysqli("localhost", "root", "", "gtav");
+
+                    // Vérifier la connexion
+                    if ($conn->connect_error) {
+                        die("La connexion à la base de données a échoué : " . $conn->connect_error);
+                    }
+
+                    // Requête SQL pour récupérer les données depuis la base de données
+                    $sql = "SELECT titre, auteur_nom,auteur_prenom,date_publication FROM enquetes";
+                    $result = $conn->query($sql);
+
+                    if ($result->num_rows > 0) {
+                        while ($row = $result->fetch_assoc()) {
+                            echo "<tr>";
+                            echo "<td>" . $row["titre"] . "</td>";
+                            echo "<td>" . $row["auteur_nom"]," ", $row['auteur_prenom'] . "</td>";
+                            echo "<td>" . $row["date_publication"] . "</td>";
+                            echo "</tr>";
+                        }
+                    } else {
+                        echo "Aucun résultat trouvé dans la base de données.";
+                    }
+
+                    // Fermer la connexion à la base de données
+                    $conn->close();
+                    ?>
                     </table>
                 </div>
             </div>

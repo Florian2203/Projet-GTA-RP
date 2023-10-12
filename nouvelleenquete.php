@@ -35,22 +35,20 @@
         <main id="main">
             <div id="content">
                 <h1>Nouvelle Enquête</h1>
+                <form action="police_enquete.php" method="post">
                 <section id="Enquete textearea">
-                    <textarea name="Title" id="Title" style="resize: none; width: 95%; height: 10px;" cols="30" rows="1" placeholder="Titre" required></textarea>
+                    <textarea name="titre" id="Title" style="resize: none; width: 95%; height: 10px;" cols="30" rows="1" placeholder="Titre" required></textarea>
                     <br>
-                    <textarea name="Article" id="Article" style="resize: none; width: 95%; height: 500px;" cols="30" rows="10" placeholder="Écrivez votre enquête"></textarea>
+                    <textarea name="contenu" id="Article" style="resize: none; width: 95%; height: 500px;" cols="30" rows="10" placeholder="Écrivez votre enquête"></textarea>
                     <br>
+                    <div id="report-buttons">
+                        <input type="submit" value="Publier" id="Publier">
+                    </div>
+                    </form>
                 </section>
                 <footer>
-                    <div id="report-buttons">
-                        <button type="button" id="Publier">Publier</button>
-                    </div>
-                </footer>
-                <script>
-                    document.getElementById("Publier").addEventListener("click", function() {
-                        window.location.href = "dernierselements.html"
-                    })
-                </script>
+                    
+                
             </div>
         </main>
     </section>
