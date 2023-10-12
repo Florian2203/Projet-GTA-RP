@@ -37,7 +37,7 @@
                 <h1>Nouvelle Enquête</h1>
                 <form action="police_enquete.php" method="post">
                 <section id="Enquete textearea">
-                    <textarea name="titre" id="Title" style="resize: none; width: 95%; height: 10px;" cols="30" rows="1" placeholder="Titre" required></textarea>
+                    <textarea name="titre" id="Title" style="resize: none; width: 95%; height: 30px;" cols="30" rows="1" placeholder="Titre" required></textarea>
                     <br>
                     <textarea name="contenu" id="Article" style="resize: none; width: 95%; height: 500px;" cols="30" rows="10" placeholder="Écrivez votre enquête"></textarea>
                     <br>
