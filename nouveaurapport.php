@@ -37,7 +37,7 @@
                 <div id="content">
                     <h1>Nouveau Rapport</h1>
 <section id="Enquete textearea">
-<textarea name="Title" id="Title" style="resize: none; width: 95%; height: 10px;" cols="30" rows="1" placeholder="Titre" required></textarea>
+<textarea name="Title" id="Title" style="resize: none; width: 95%; height: 30px;" cols="30" rows="1" placeholder="Titre" required></textarea>
 <br>
 <textarea name="Article" id="Article" style="resize: none; width: 95%; height: 500px;" cols="30" rows="10" placeholder="Écrivez votre enquête"></textarea>
 <br>

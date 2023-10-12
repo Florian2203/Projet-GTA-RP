@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Changer Mot de Passe</title>
-    <link rel="stylesheet" href="./Changer Mot de Passe.css">
+    <link rel="stylesheet" href="Changer Mot de Passe.css">
 </head>
 <body>
 
