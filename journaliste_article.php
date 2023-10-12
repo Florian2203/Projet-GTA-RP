@@ -6,7 +6,7 @@ if (isset($_SESSION['user_id'])) {
     $auteur_id = $_SESSION['user_id'];
 
     // Connexion à la base de données
-    $conn = new mysqli("localhost", "utilisateur", "motdepasse", "ma_base_de_donnees");
+    $conn = new mysqli("localhost", "root", "", "gtav");
 
     if ($conn->connect_error) {
         die("La connexion à la base de données a échoué : " . $conn->connect_error);
@@ -17,23 +17,29 @@ if (isset($_SESSION['user_id'])) {
     $stmt = $conn->prepare($query);
     $stmt->bind_param("i", $auteur_id);
     $stmt->execute();
-    $stmt->bind_result($nom, $prenom);
+    $result = $stmt->get_result();
 
-    // Vérifiez s'il y a un résultat
-    if ($stmt->fetch()) {
+    if ($result->num_rows === 1) {
+        $row = $result->fetch_assoc();
+
+    
+     
         // Récupérez les données du formulaire
         $titre = $_POST['titre'];
         $contenu = $_POST['contenu'];
+        $auteur_nom = $row['nom'];
+        $auteur_prenom = $row['prenom'];
 
+        
         // Préparez et exécutez la requête SQL pour insérer l'article
         $sql = "INSERT INTO articles (titre, contenu, auteur_nom, auteur_prenom, date_publication) VALUES (?, ?, ?, ?, NOW())";
         $stmt = $conn->prepare($sql);
-        $stmt->bind_param("ss", $nom, $prenom);
+        $stmt->bind_param("ssss",$titre, $contenu, $auteur_nom, $auteur_prenom);
         $stmt->execute();
 
         // Vérifiez si l'insertion a réussi
         if ($stmt->affected_rows > 0) {
-            echo "L'article a été enregistré avec succès.";
+           header("Location:derniersarticles.php");
         } else {
             echo "Erreur lors de l'enregistrement de l'article : " . $conn->error;
         }

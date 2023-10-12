@@ -32,16 +32,15 @@
                 <h1>Nouvel Article</h1>
                 <form action="journaliste_article.php" id="Enquete textearea" method="post">
 
-                    <textarea name="Title" id="Title" cols="30" rows="1" placeholder="Titre" required></textarea>
+                    <textarea name="titre" id="Title" cols="30" rows="1" placeholder="Titre" required></textarea>
                     <br>
-                    <textarea name="Article" id="Article" cols="30" rows="10" placeholder="Écrivez votre article"></textarea>
+                    <textarea name="contenu" id="Article" cols="30" rows="10" placeholder="Écrivez votre article"></textarea>
                     <br>
-                </form>
-                <footer>
                     <div id="report-buttons">
-                        <button type="button" id="Publier">Publier</button>
+                        <input type="submit" value="Publier" id="Publier">
                     </div>
-                </footer>
+                </form>
+                
 
 </body>
 
