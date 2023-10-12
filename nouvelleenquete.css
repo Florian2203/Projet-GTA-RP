@@ -42,10 +42,6 @@ figure {
     margin: 0%;
 }
 
-#LogoLSPD {
-    width: 90%;
-    height: 150px;
-}
 
 #navlogo {
     /* border: red 3px solid; */
@@ -138,8 +134,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-right: 150px;
-   
+    margin-left: 20px;
 
 }
 #Publier {
