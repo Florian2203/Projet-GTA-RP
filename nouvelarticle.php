@@ -31,13 +31,15 @@
 <section id="Enquete textearea">
 <textarea name="Title" id="Title" cols="30" rows="1" placeholder="Titre" required></textarea>
 <br>
+<form action="journaliste_article.php"></form>
 <textarea name="Article" id="Article" cols="30" rows="10"
 placeholder="Écrivez votre article"></textarea>
+<div id="report-buttons">
+<input type="submit" value="Publier" id="Publier">
+</div>
 <br>
 </section>
-<footer><div id="report-buttons">
-<button type="button" id="Publier">Publier</button>
-</div></footer>
+<footer></footer>
 <script>document.getElementById("Publier").addEventListener("click", function(){     window.location.href="dernierselements.html" })</script>
 </body>
 
