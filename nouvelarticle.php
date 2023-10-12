@@ -6,10 +6,7 @@
     <link rel="stylesheet" href="./nouvelarticle.css">
     <title>Nouvel Article</title>
     <style>
-        #Publier {
-            position: relative;
-            left: -30px; /* Ajustez cette valeur selon vos besoins */
-        }
+        
     </style>
 </head>
     <body>
@@ -43,7 +40,6 @@
 <footer><div id="report-buttons">
 <button type="button" id="Publier">Publier</button>
 </div></footer>
-<script>document.getElementById("Publier").addEventListener("click", function(){     window.location.href="dernierselements.html" })</script>
-</body>
+
 
 </html>

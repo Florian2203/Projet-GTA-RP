@@ -39,6 +39,7 @@
                     <th> Journaliste</th>
                     <th> Date</th>
                     </tr>
+                    
                     <?php
                     // Connexion à la base de données (remplacez les valeurs par les vôtres)
                     $conn = new mysqli("localhost", "root", "", "gtav");
@@ -66,7 +67,9 @@
 
                     // Fermer la connexion à la base de données
                     $conn->close();
+                    
                     ?>
+                </table>
                 </div>
             </div>
         </main>
