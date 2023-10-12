@@ -53,5 +53,3 @@ if (isset($_SESSION['user_id'])) {
 } else {
     echo "Vous devez être connecté pour soumettre un article.";
 }
-
-?>

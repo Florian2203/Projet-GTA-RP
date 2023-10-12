@@ -39,8 +39,7 @@ placeholder="Écrivez votre article"></textarea>
 </div>
 <br>
 </section>
-<footer></footer>
-<script>document.getElementById("Publier").addEventListener("click", function(){     window.location.href="dernierselements.html" })</script>
+
 </body>
 
 </html>
