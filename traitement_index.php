@@ -5,7 +5,7 @@ session_start();
 $server = 'localhost';
 $name = 'root';
 $pass = '';
-$dbname = 'gtarpyanis';
+$dbname = 'gtav';
 
 $conn = new mysqli($server, $name, $pass, $dbname);
 
