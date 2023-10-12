@@ -30,16 +30,18 @@
             <main id="main">
                 <div id="content">
                     <h1>Nouvel Article</h1>
+                    <form action="journaliste_article.php" method="post">
 <section id="Enquete textearea">
-<textarea name="Title" id="Title" style="resize: none; width: 95%; height: 30px;" cols="30" rows="1" placeholder="Titre" required></textarea>
+<textarea name="titre" id="Title" style="resize: none; width: 95%; height: 30px;" cols="30" rows="1" placeholder="Titre" required></textarea>
 <br>
-<textarea name="Article" id="Article" style="resize: none; width: 95%; height: 500px;" cols="30" rows="10" placeholder="Écrivez votre enquête"></textarea>
+<textarea name="contenu" id="Article" style="resize: none; width: 95%; height: 500px;" cols="30" rows="10" placeholder="Écrivez votre enquête"></textarea>
 </textarea>
 <br>
 </section>
-<footer><div id="report-buttons">
-<button type="button" id="Publier">Publier</button>
-</div></footer>
+<div id="report-buttons">
+<input type="submit" value="Publier" id="Publier">
+</div>
+</form>
 
 
 </html>
