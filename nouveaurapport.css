@@ -127,14 +127,15 @@ input[type="text"], textarea {
     margin-right: 10px;
 }
 
-button {
+#Publier {
     padding: 10px 20px;
     background-color: #333;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-left: 20px;
+    margin-left: 1500px;
+    margin-top : 10px
 
 }
 #Publier {

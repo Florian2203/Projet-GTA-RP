@@ -42,7 +42,7 @@
 <br>
 <textarea name="contenu" id="Article" style="resize: none; width: 95%; height: 500px;" cols="30" rows="10" placeholder="Écrivez votre enquête"></textarea>
 <br>
-<input type="submit" value="Publier">
+<input type="submit" value="Publier" id="Publier">
 </form>
 </section>
 
