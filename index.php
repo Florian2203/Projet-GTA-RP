@@ -3,57 +3,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GTA V</title>
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
 
     
     <figure id="Logoduserveur">
-        <img src="/img/pngaaa.com-3547252.png" alt="Logo du serveur">
+        <img src="img/pngaaa.com-3547252.png" alt="Logo du serveur">
     </figure>
     <section id="Formutilisateur">
 
     <figure id="Logonomutilisateur">
         <img src="img/SVG.png" alt="Logo Nom d'utilisateur">
-    </figure>
-
-    
-        <form action="" method="get">
+    </figure> 
+<form action="traitement_index.php" method="post">
             <label for="Utilisateur">
                 <input type="text" id="Utilisateur"
-                placeholder="Nom d'utilisateur">
+                placeholder="Nom d'utilisateur" name="userName">
             </label>
-            </form>
             </section>
-
     <section>
     <figure id="Logomdp">
-        <img src="/img/MDP.png" alt="Icone MDP">
+        <img src="img/MDP.png" alt="Icone MDP">
     </figure>
   
-   <form>
         <label for="MDP">
-            <input type="text" id="MDP" placeholder="Mot de Passe">
+            <input type="text" id="MDP" placeholder="Mot de Passe" name="MDP">
         </label>
-    </form>
     </section>
         <br>
         <button type="submit" id="redirectButton">Connexion</button> <br>
+</form>
     
        
     <a id="LienDiscord" href="">Lien Discord</a>
     <br>
-    <a id="MotdePasseOublié" href="Motdepassseoublie.html">Mot de passe oublié</a>
+    <a id="MotdePasseOublié" href="Motdepassseoublie.php">Mot de passe oublié</a>
 
     <footer>
     <p id="Droits"> ©2023 tous droits réservés </p>
 </footer>
 
 
-<script>
-    document.getElementById("redirectButton").addEventListener("click", function() {
-      window.location.href = "dernierselements.html";
-    });
-  </script>
+
 </body>
 </html>

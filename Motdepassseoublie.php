@@ -2,31 +2,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Changer Mot de Passe</title>
-    <link rel="stylesheet" href="./Changer Mot de Passe.css">
+    <title>Mot de passe oublié</title>
+    <link rel="stylesheet" href="Mot de passe oublié.css">
 </head>
 <body>
 
 
     <figure id="Logoduserveur">
-        <img src="./img/Logo serveur.png" alt="Logo du serveur">
+        <img src="Images/Logo serveur.png" alt="Logo du serveur">
     </figure>
     <section id="Formutilisateur">
     <figure id="Logonomutilisateur">
-        <img src="./img/Utlisateurlogo.png" alt="Logo Nom d'utilisateur">
+        <img src="Images/Utlisateurlogo.png" alt="Logo Nom d'utilisateur">
     </figure>
 
         <form action="" method="get">
             <label for="Utilisateur">
                 <input type="text" id="Utilisateur"
-                placeholder="Pseudo">
+                placeholder="Nom d'utilisateur">
             </label>
             </form>
             </section>
 
     <section>
     <figure id="Logomdp">
-        <img src="./img/MDP.png" alt="Icone MDP">
+        <img src="Images/mdplogo.png" alt="Icone MDP">
     </figure>
 
    <form>
@@ -37,7 +37,7 @@
     </section>
     <section>
     <figure id="Logomdp">
-        <img src="./img/mdplogo.png" alt="Icone MDP">
+        <img src="Images/mdplogo.png" alt="Icone MDP">
     </figure>
 
    <form>
@@ -47,19 +47,17 @@
     </form>
     </section>
         <br>
-        <button type="submit" id="Modif" >Confirmer </button> <br>
+        <button type="submit" id="Save">Sauvegarder</button> <br>
 
 
-    
+    <a id="LienDiscord" href="">Lien Discord</a>
     <br>
     <footer>
     <p id="Droits"> ©2023 tous droits réservés </p>
 </footer>
 
-<script>
-    document.getElementById("Modif").addEventListener("click", function(){
-        window.location.href = "dernierselements.html"
-    })
-</script>
+<script>document.getElementById('Save').addEventListener("click", function(){
+    window.location.href = "index.html"
+}) </script>
 </body>
 </html>
