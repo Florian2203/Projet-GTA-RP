@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="nouveaurapport.css">
     <title>Nouveau Rapport</title>
-    
+    <style>
+        #Publier {
+            position: relative;
+            left: -30px; /* Ajustez cette valeur selon vos besoins */
+        }
+    </style>
 </head>
     <body>
         <section id="body">
@@ -32,10 +37,9 @@
                 <div id="content">
                     <h1>Nouveau Rapport</h1>
 <section id="Enquete textearea">
-<textarea name="Title" id="Title" cols="30" rows="1" placeholder="Titre" required></textarea>
+<textarea name="Title" id="Title" style="resize: none; width: 95%; height: 30px;" cols="30" rows="1" placeholder="Titre" required></textarea>
 <br>
-<textarea name="Article" id="Article" cols="30" rows="10"
-placeholder="Écrivez votre enquête"></textarea>
+<textarea name="Article" id="Article" style="resize: none; width: 95%; height: 500px;" cols="30" rows="10" placeholder="Écrivez votre enquête"></textarea>
 <br>
 </section>
 <footer><div id="report-buttons">

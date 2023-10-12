@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./nouvelarticle.css">
     <title>Nouvel Article</title>
-    
+    <style>
+        #Publier {
+            position: relative;
+            left: -30px; /* Ajustez cette valeur selon vos besoins */
+        }
+    </style>
 </head>
     <body>
         <section id="body">
@@ -29,17 +34,16 @@
                 <div id="content">
                     <h1>Nouvel Article</h1>
 <section id="Enquete textearea">
-<textarea name="Title" id="Title" cols="30" rows="1" placeholder="Titre" required></textarea>
+<textarea name="Title" id="Title" style="resize: none; width: 95%; height: 30px;" cols="30" rows="1" placeholder="Titre" required></textarea>
 <br>
-<form action="journaliste_article.php"></form>
-<textarea name="Article" id="Article" cols="30" rows="10"
-placeholder="Écrivez votre article"></textarea>
-<div id="report-buttons">
-<input type="submit" value="Publier" id="Publier">
-</div>
+<textarea name="Article" id="Article" style="resize: none; width: 95%; height: 500px;" cols="30" rows="10" placeholder="Écrivez votre enquête"></textarea>
+</textarea>
 <br>
 </section>
-
+<footer><div id="report-buttons">
+<button type="button" id="Publier">Publier</button>
+</div></footer>
+<script>document.getElementById("Publier").addEventListener("click", function(){     window.location.href="dernierselements.html" })</script>
 </body>
 
 </html>

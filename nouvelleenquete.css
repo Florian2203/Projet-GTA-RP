@@ -1,4 +1,4 @@
-* {
+** {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -41,7 +41,6 @@ body {
 figure {
     margin: 0%;
 }
-
 
 
 #navlogo {
@@ -116,7 +115,6 @@ input[type="text"], textarea {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    
 }
 
 #report-box {
@@ -141,16 +139,20 @@ button {
 }
 #Publier {
     background-color: #28a745;
+    margin-right: 10px;
 }
 
 footer {
     background-color: transparent; 
     color: #fff;
     text-align: left; 
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
-
+#police-logo {
+    width: 100%;
+    height: 100px;
+}
 
 #content-container {
     display: flex;
