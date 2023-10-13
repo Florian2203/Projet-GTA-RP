@@ -38,8 +38,8 @@
                 <table>
                     <tr>
                     <th> Nom</th>
-                    <th> ID</th>
-                    <th> Date de naissance</th>
+                    <th> Journaliste</th>
+                    <th> Date de publication</th>
                     </tr>
                     <?php
                     // Connexion à la base de données (remplacez les valeurs par les vôtres)
